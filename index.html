@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huzaifa Text-Editor</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="box1">
+        <input type="number" onchange="fontchange(this)" value="16" min="16" >
+        <div class="border_left"></div>
+            <i class="fa-solid fa-b " onclick="Bold()"></i>
+            <i class="fa-solid fa-italic" onclick="Italic()"></i>
+            <i class="fa-solid fa-underline" onclick="underLine()"></i>
+            <div class="border_left"></div>
+            <i class="fa-solid fa-align-right" onclick="Right()"></i>
+            <i class="fa-solid fa-align-center" onclick="Center()"></i>
+            <i class="fa-solid fa-align-left" onclick="Left()"></i>
+            <div class="border_left"></div>
+            <span  onclick="smallText()">a</span>
+            <span  onclick="bigText()">A</span>
+            <div class="border_left"></div>
+            <input id="color" type="color" oninput="changeColor(this)">
+            <div class="border_left"></div>
+            <button class="btn" onclick="reset()">Reset</button>
+    </div>
+    <div class="box2">
+        <textarea name="text" id="inputchange" placeholder="Enter your text here..."></textarea>
+    </div>
+</div>
+</body>
+<script src="./app.js"></script>
+
+</html>

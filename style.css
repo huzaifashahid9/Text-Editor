@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(212, 191, 165);
+
+}
+
+
+.container{
+    width: 70%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.box1{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3px;
+    background-color: rgb(194, 174, 148);
+}
+
+.box1 input{
+    height: 30px;
+    width: 80px;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+i,span,input{
+    cursor: pointer;
+    color:  rgb(93, 79, 62);
+}
+
+span{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+.box2{
+    border: 1px solid rgb(194, 174, 148);
+    border-radius: 10px;
+    height: 50vh;
+    margin-top: 50px;
+}
+
+
+textarea{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.border_left{
+    border-left: 1px solid black;
+    height: 25px;
+}
+
+
+i:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgb(212, 191, 165);
+
+}
+
+span:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: rgb(212, 191, 165);
+}
+
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: rgb(212, 191, 165);
+    color:  rgb(93, 79, 62);
+    
+}
